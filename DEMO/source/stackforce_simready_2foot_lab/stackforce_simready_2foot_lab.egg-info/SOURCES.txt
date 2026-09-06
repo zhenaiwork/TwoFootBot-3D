@@ -1,0 +1,16 @@
+pyproject.toml
+setup.py
+stackforce_simready_2foot_lab/__init__.py
+stackforce_simready_2foot_lab.egg-info/PKG-INFO
+stackforce_simready_2foot_lab.egg-info/SOURCES.txt
+stackforce_simready_2foot_lab.egg-info/dependency_links.txt
+stackforce_simready_2foot_lab.egg-info/requires.txt
+stackforce_simready_2foot_lab.egg-info/top_level.txt
+stackforce_simready_2foot_lab/tasks/__init__.py
+stackforce_simready_2foot_lab/tasks/direct/__init__.py
+stackforce_simready_2foot_lab/tasks/direct/2foot/2foot_env.py
+stackforce_simready_2foot_lab/tasks/direct/2foot/2foot_env_cfg.py
+stackforce_simready_2foot_lab/tasks/direct/2foot/__init__.py
+stackforce_simready_2foot_lab/tasks/direct/2foot/custom_rewards.py
+stackforce_simready_2foot_lab/tasks/direct/2foot/agents/__init__.py
+stackforce_simready_2foot_lab/tasks/direct/2foot/agents/rsl_rl_ppo_cfg.py

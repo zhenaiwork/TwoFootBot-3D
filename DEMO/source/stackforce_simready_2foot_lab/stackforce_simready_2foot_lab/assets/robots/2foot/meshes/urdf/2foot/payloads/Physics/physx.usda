@@ -1,0 +1,79 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "URDF USD Converter v0.1.3"
+    }
+    defaultPrim = "tn__2foot_"
+    doc = """Generated from Composed Stage of root layer C:\\Users\\ZHENAI~1\\AppData\\Local\\Temp\\tmpf1f0lj99\\2foot.usdc
+
+
+Generated from Composed Stage of root layer C:\\Users\\ZHENAI~1\\AppData\\Local\\Temp\\urdf_import_2foot_b4o7puoa\\usdex_2foot\\2foot.usdc
+
+
+Generated from Composed Stage of root layer C:\\Users\\ZHENAI~1\\AppData\\Local\\Temp\\urdf_import_2foot_b4o7puoa\\temp_2foot\\2foot.usd
+
+
+Generated from Composed Stage of root layer C:\\Users\\ZhenaiWin\\Documents\\Bot3dData\\2foot\\urdf\\2foot\\payloads\\base.usd
+"""
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    subLayers = [
+        @./physics.usda@
+    ]
+    upAxis = "Z"
+)
+
+over "tn__2foot_"
+{
+    over "Physics"
+    {
+        over "jlf0_link" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+        }
+
+        over "jlf1_link" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+        }
+
+        over "jlf2_link" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+        }
+
+        over "jlf3_link" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+        }
+
+        over "jrf0_link" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+        }
+
+        over "jrf1_link" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+        }
+
+        over "jrf2_link" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+        }
+
+        over "jrf3_link" (
+            prepend apiSchemas = ["PhysxJointAPI"]
+        )
+        {
+        }
+    }
+}
+

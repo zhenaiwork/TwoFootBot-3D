@@ -1,0 +1,257 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "URDF USD Converter v0.1.3"
+    }
+    defaultPrim = "tn__2foot_"
+    doc = """Generated from Composed Stage of root layer C:\\Users\\ZHENAI~1\\AppData\\Local\\Temp\\tmpf1f0lj99\\2foot.usdc
+
+
+Generated from Composed Stage of root layer C:\\Users\\ZHENAI~1\\AppData\\Local\\Temp\\urdf_import_2foot_b4o7puoa\\usdex_2foot\\2foot.usdc
+
+
+Generated from Composed Stage of root layer C:\\Users\\ZHENAI~1\\AppData\\Local\\Temp\\urdf_import_2foot_b4o7puoa\\temp_2foot\\2foot.usd
+
+
+Generated from Composed Stage of root layer C:\\Users\\ZhenaiWin\\Documents\\Bot3dData\\2foot\\urdf\\2foot\\payloads\\base.usd
+"""
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    subLayers = [
+        @./physics.usda@
+    ]
+    upAxis = "Z"
+)
+
+over "tn__2foot_"
+{
+    over "Physics"
+    {
+        def MjcActuator "jlf0_link_actuator"
+        {
+            uniform double mjc:forceRange:max = inf
+            uniform double mjc:forceRange:min = -inf
+            custom rel mjc:target
+            prepend rel mjc:target = </tn__2foot_/Physics/jlf0_link>
+        }
+
+        def MjcActuator "jlf1_link_actuator"
+        {
+            uniform double mjc:forceRange:max = inf
+            uniform double mjc:forceRange:min = -inf
+            custom rel mjc:target
+            prepend rel mjc:target = </tn__2foot_/Physics/jlf1_link>
+        }
+
+        def MjcActuator "jlf2_link_actuator"
+        {
+            uniform double mjc:forceRange:max = inf
+            uniform double mjc:forceRange:min = -inf
+            custom rel mjc:target
+            prepend rel mjc:target = </tn__2foot_/Physics/jlf2_link>
+        }
+
+        def MjcActuator "jlf3_link_actuator"
+        {
+            uniform double mjc:forceRange:max = inf
+            uniform double mjc:forceRange:min = -inf
+            custom rel mjc:target
+            prepend rel mjc:target = </tn__2foot_/Physics/jlf3_link>
+        }
+
+        def MjcActuator "jrf0_link_actuator"
+        {
+            uniform double mjc:forceRange:max = inf
+            uniform double mjc:forceRange:min = -inf
+            custom rel mjc:target
+            prepend rel mjc:target = </tn__2foot_/Physics/jrf0_link>
+        }
+
+        def MjcActuator "jrf1_link_actuator"
+        {
+            uniform double mjc:forceRange:max = inf
+            uniform double mjc:forceRange:min = -inf
+            custom rel mjc:target
+            prepend rel mjc:target = </tn__2foot_/Physics/jrf1_link>
+        }
+
+        def MjcActuator "jrf2_link_actuator"
+        {
+            uniform double mjc:forceRange:max = inf
+            uniform double mjc:forceRange:min = -inf
+            custom rel mjc:target
+            prepend rel mjc:target = </tn__2foot_/Physics/jrf2_link>
+        }
+
+        def MjcActuator "jrf3_link_actuator"
+        {
+            uniform double mjc:forceRange:max = inf
+            uniform double mjc:forceRange:min = -inf
+            custom rel mjc:target
+            prepend rel mjc:target = </tn__2foot_/Physics/jrf3_link>
+        }
+
+        over "root_joint"
+        {
+        }
+
+        over "jlf0_link" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+        }
+
+        over "jlf1_link" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+        }
+
+        over "jlf2_link" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+        }
+
+        over "jlf3_link" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+        }
+
+        over "jrf0_link" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+        }
+
+        over "jrf1_link" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+        }
+
+        over "jrf2_link" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+        }
+
+        over "jrf3_link" (
+            delete apiSchemas = ["PhysicsDriveAPI:angular", "PhysicsJointStateAPI:angular"]
+        )
+        {
+        }
+    }
+
+    over "Geometry"
+    {
+        over "head_link"
+        {
+            over "lf0_link"
+            {
+                over "lf1_link"
+                {
+                    over "lf2_link"
+                    {
+                        over "lf3_link"
+                        {
+                            over "lf3_link"
+                            {
+                            }
+
+                            over "lf3_link_1"
+                            {
+                            }
+                        }
+
+                        over "lf2_link"
+                        {
+                        }
+
+                        over "lf2_link_1"
+                        {
+                        }
+                    }
+
+                    over "lf1_link"
+                    {
+                    }
+
+                    over "lf1_link_1"
+                    {
+                    }
+                }
+
+                over "lf0_link"
+                {
+                }
+
+                over "lf0_link_1"
+                {
+                }
+            }
+
+            over "rf0_link"
+            {
+                over "rf1_link"
+                {
+                    over "rf2_link"
+                    {
+                        over "rf3_link"
+                        {
+                            over "rf3_link"
+                            {
+                            }
+
+                            over "rf3_link_1"
+                            {
+                            }
+                        }
+
+                        over "rf2_link"
+                        {
+                        }
+
+                        over "rf2_link_1"
+                        {
+                        }
+                    }
+
+                    over "rf1_link"
+                    {
+                    }
+
+                    over "rf1_link_1"
+                    {
+                    }
+                }
+
+                over "rf0_link"
+                {
+                }
+
+                over "rf0_link_1"
+                {
+                }
+            }
+
+            over "head_link"
+            {
+            }
+
+            over "head_link_1"
+            {
+            }
+        }
+    }
+
+    over "Materials"
+    {
+    }
+
+    over "VisualMaterials"
+    {
+    }
+}
+

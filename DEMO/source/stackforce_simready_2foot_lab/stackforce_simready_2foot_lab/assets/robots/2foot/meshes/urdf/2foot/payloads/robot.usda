@@ -1,0 +1,155 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "URDF USD Converter v0.1.3"
+    }
+    defaultPrim = "tn__2foot_"
+    doc = """Generated from Composed Stage of root layer C:\\Users\\ZHENAI~1\\AppData\\Local\\Temp\\tmpf1f0lj99\\2foot.usdc
+
+
+Generated from Composed Stage of root layer C:\\Users\\ZHENAI~1\\AppData\\Local\\Temp\\urdf_import_2foot_b4o7puoa\\usdex_2foot\\2foot.usdc
+
+
+Generated from Composed Stage of root layer C:\\Users\\ZHENAI~1\\AppData\\Local\\Temp\\urdf_import_2foot_b4o7puoa\\temp_2foot\\2foot.usd
+"""
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+over "tn__2foot_" (
+    prepend apiSchemas = ["IsaacRobotAPI"]
+)
+{
+    prepend rel isaac:physics:robotJoints = [
+        </tn__2foot_/Physics/root_joint>,
+        </tn__2foot_/Physics/jlf0_link>,
+        </tn__2foot_/Physics/jrf0_link>,
+        </tn__2foot_/Physics/jlf1_link>,
+        </tn__2foot_/Physics/jlf2_link>,
+        </tn__2foot_/Physics/jlf3_link>,
+        </tn__2foot_/Physics/jrf1_link>,
+        </tn__2foot_/Physics/jrf2_link>,
+        </tn__2foot_/Physics/jrf3_link>,
+    ]
+    prepend rel isaac:physics:robotLinks = [
+        </tn__2foot_/Geometry/head_link>,
+        </tn__2foot_/Geometry/head_link/lf0_link>,
+        </tn__2foot_/Geometry/head_link/lf0_link/lf1_link>,
+        </tn__2foot_/Geometry/head_link/lf0_link/lf1_link/lf2_link>,
+        </tn__2foot_/Geometry/head_link/lf0_link/lf1_link/lf2_link/lf3_link>,
+        </tn__2foot_/Geometry/head_link/rf0_link>,
+        </tn__2foot_/Geometry/head_link/rf0_link/rf1_link>,
+        </tn__2foot_/Geometry/head_link/rf0_link/rf1_link/rf2_link>,
+        </tn__2foot_/Geometry/head_link/rf0_link/rf1_link/rf2_link/rf3_link>,
+    ]
+    token isaac:robotType = "Default"
+
+    over "Geometry"
+    {
+        over "head_link" (
+            prepend apiSchemas = ["IsaacLinkAPI"]
+        )
+        {
+            over "lf0_link" (
+                prepend apiSchemas = ["IsaacLinkAPI"]
+            )
+            {
+                over "lf1_link" (
+                    prepend apiSchemas = ["IsaacLinkAPI"]
+                )
+                {
+                    over "lf2_link" (
+                        prepend apiSchemas = ["IsaacLinkAPI"]
+                    )
+                    {
+                        over "lf3_link" (
+                            prepend apiSchemas = ["IsaacLinkAPI"]
+                        )
+                        {
+                        }
+                    }
+                }
+            }
+
+            over "rf0_link" (
+                prepend apiSchemas = ["IsaacLinkAPI"]
+            )
+            {
+                over "rf1_link" (
+                    prepend apiSchemas = ["IsaacLinkAPI"]
+                )
+                {
+                    over "rf2_link" (
+                        prepend apiSchemas = ["IsaacLinkAPI"]
+                    )
+                    {
+                        over "rf3_link" (
+                            prepend apiSchemas = ["IsaacLinkAPI"]
+                        )
+                        {
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    over "Physics"
+    {
+        over "root_joint" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "jlf0_link" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "jlf1_link" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "jlf2_link" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "jlf3_link" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "jrf0_link" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "jrf1_link" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "jrf2_link" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+
+        over "jrf3_link" (
+            prepend apiSchemas = ["IsaacJointAPI"]
+        )
+        {
+        }
+    }
+}
+
