@@ -6,4 +6,4 @@
 
 下图是`2FootBot`的3D模型示意图。
 
-<img src="file:///C:/Users/ZhenaiWin/Pictures/Typedown/e8c392db-57aa-4a93-9a14-5042769981d1.png" title="" alt="e8c392db-57aa-4a93-9a14-5042769981d1" style="zoom:50%;">
+<img src="e8c392db-57aa-4a93-9a14-5042769981d1.png" title="" alt="e8c392db-57aa-4a93-9a14-5042769981d1" style="zoom:50%;">
